@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Clases</title>
+
+    <style>
+        body {
+            font-family: Arial, serif;
+            padding: 30px;
+            background-color: #ffffff;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: auto;
+            background-color: #ffffff;
+            border: 3px double #000; /* borde doble alrededor de la tabla */
+        }
+
+        th, td {
+            border: 2px double #5a5a5a; /* bordes dobles internos */
+            padding: 8px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-family: Georgia, serif;
+        }
+
+        tfoot td {
+            font-style: italic;
+            text-align: left;
+            padding: 10px;
+            font-size: 13px;
+        }
+
+        .homologada {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Horario de Tercero  "A" - Matutino SISTEMAS DE INFORMACION</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Hora</th>
+                <th scope="col">Lunes</th>
+                <th scope="col">Martes</th>
+                <th scope="col">Miércoles</th>
+                <th scope="col">Jueves</th>
+                <th scope="col">Viernes</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td scope="row">7:15 - 8:15</td>
+                <td class="homologada">Materia Homologada</td>
+                <td>Arquitectura del Computador<br>Hugo Javier Guerrero Torres</td>
+                <td>Desarrollo Basados en Plataformas<br>Fredy Maximiliano Jordán Cordones</td>
+                 <td>Desarrollo Basados en Plataformas<br>Fredy Maximiliano Jordán Cordones</td>
+                <td>Arquitectura del Computador<br>Hugo Javier Guerrero Torres</td>
+            </tr>
+
+            <tr>
+                <td scope="row">8:15 - 9:15</td>
+                <td class="homologada">Materia Homologada</td>
+               <td>Arquitectura del Computador<br>Hugo Javier Guerrero Torres</td>
+                <td>Desarrollo Basados en Plataformas<br>Fredy Maximiliano Jordán Cordones</td>
+                <td>Desarrollo Basados en Plataformas<br>Fredy Maximiliano Jordán Cordones</td>
+                <td>Arquitectura del Computador<br>Hugo Javier Guerrero Torres</td>
+            </tr>
+
+            <tr>
+                <td scope="row">9:15 - 10:15</td>
+                <td>Cálculo de Varias Variables<br>Milton Fabián Peñaherrera Larenas</td>
+                <td>Arquitectura del Computador<br>Hugo Javier Guerrero Torres</td>
+                <td>Programación Orientada a Objetos<br>Nelly Karina Esparza Cruz</td>
+                <td>Desarrollo Basados en Plataformas<br>Fredy Maximiliano Jordán Cordones</td>
+                 <td class="homologada">Materia Homologada</td>
+            </tr>
+
+            <tr>
+                <td scope="row">10:30 - 11:30</td>
+                <td>Cálculo de Varias Variables<br>Milton Fabián Peñaherrera Larenas</td>
+                <td>Programación Orientada a Objetos<br>Nelly Karina Esparza Cruz</td>
+                <td>Programación Orientada a Objetos<br>Nelly Karina Esparza Cruz</td>
+                <td>Cálculo de Varias Variables<br>Milton Fabián Peñaherrera Larenas</td>
+                <td class="homologada">Materia Homologada</td>
+            </tr>
+
+            <tr>
+                <td scope="row">11:30 - 12:30</td>
+                <td>Cálculo de Varias Variables<br>Milton Fabián Peñaherrera Larenas</td>
+                <td>Programación Orientada a Objetos<br>Nelly Karina Esparza Cruz</td>
+                <td><br></td>
+                <td>Cálculo de Varias Variables<br>Milton Fabián Peñaherrera Larenas</td>
+                <td class="homologada">Materia Homologada</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="6">
+                    <br>Nota: Las horas marcadas como <strong>Materia Homologada</strong> corresponden a asignaturas previamente aprobadas.
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+     <footer>
+    <p>&copy; 2025 Dillard Farias. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
